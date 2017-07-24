@@ -1,0 +1,57 @@
+{
+"name": "superMetal",
+"version": "",
+"author": "",
+"homepage": "",
+"private": true,
+"repository": {
+    "type": "git",
+    "url": "git://github.com/the-cc-dev/metal-theme.git"
+},
+"bugs": {
+    "url": "https://github.com/"
+},
+"licenses": [{
+    "type": "MIT",
+    "url": "http://opensource.org/licenses/MIT"
+}],
+"scripts": {
+    "build": "bower install && gulp",
+    "jshint": "gulp jshint",
+    "jscs": "jscs gulpfile.js assets/scripts/*.js"
+},
+"engines": {
+    "node": ">= 4.5"
+},
+"devDependencies": {
+    "asset-builder": "^1.1.0",
+    "browser-sync": "2.6.5",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "2.1.0",
+    "gulp-cache": "0.2.8",
+    "gulp-changed": "^3.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-flatten": "^0.3.1",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "2.2.1",
+    "gulp-inject": "^4.2.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-less": "^3.3.2",
+    "gulp-minify-css": "1.0.0",
+    "gulp-plumber": "1.0.0",
+    "gulp-rename": "1.2.2",
+    "gulp-rev": "^8.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^3.0.0",
+    "gutil": "^1.6.4",
+    "jshint": "^2.9.5",
+    "lazypipe": "^1.0.1",
+    "merge-stream": "^1.0.1",
+    "minimist": "^1.2.0",
+    "run-sequence": "^2.0.0",
+    "wiredep": "^4.0.0"
+},
+"license": "ISC"
+}

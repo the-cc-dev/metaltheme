@@ -1,0 +1,30 @@
+{
+  "dependencies": { 
+    "images": {
+      "files": ["imgs/**/*"]
+    },
+    "fonts": {
+      "files": ["fonts/**/*"],
+      "bower": ["bootstrap"]
+    }, 
+    "external.js": {
+      "bower": ["jquery", "bootstrap"]      
+    },  
+    "scripts.js": {
+      "files": ["js/main.js"],
+      "main": true
+    },
+    "styles.css": { 
+      "bower": ["bootstrap"],    
+      "files": ["css/main.css"],
+      "main": true
+    }
+  },
+  "paths": {
+    "source": "assets/",
+    "dist": 'dist/'
+  },
+  "config": {
+    "devUrl": "http://localhost:8888/metalwork/"
+  }
+}

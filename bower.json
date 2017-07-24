@@ -1,0 +1,19 @@
+{
+  "name": "superMetal",
+  "homepage": "https://github.com/caitlinchavanne/metalwork",
+  "authors": [
+    "the-cc-dev <the.cc.dev@gmail.com>"
+  ],
+  "description": "theme for mcclanahan design",
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7"
+  }
+}
